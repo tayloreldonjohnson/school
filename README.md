@@ -1,3 +1,0 @@
-# school
-
-time to learn
