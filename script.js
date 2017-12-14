@@ -1,20 +1,31 @@
-/*function textToAr(){
-	document.getElementById("statUserInput").addEventListener(createTextNode).console.log(textToAr());
-}*/
+document.getElementById("statText").addEventListener("click", butClickLetterCount);
+document.getElementById("statText").addEventListener("click", butClickspace);
+document.getElementById("statUserInput").addEventListener("input",countLetters);
+document.getElementById("statUserInput").addEventListener("input",countSpaces);
 
-document.getElementById("statText").addEventListener("click", butClick);
-document.getElementById("statUserInput").addEventListener("input",countWords);
 var cWords = 0;
-function countWords(){
-	cWords++;
-	
+var cLetters = 0;
+var spaces = 0;
+function countSpaces(){
+	cLetters.match(/&#32/g).length;
+	return spaces;
+}
+function countLetters(){
+	cLetters++;
 }
 
- function butClick(){
+
+	
+
+function butClickLetterCount(){
 		var pLetterCount = document.createElement("P");
-		var pAdd = document.createTextNode("Amount of letters inputed" + cWords);
+		var pAdd = document.createTextNode("Amount of letters inputed " + cLetters);
 		pLetterCount.appendChild(pAdd);
 		document.body.appendChild(pLetterCount);
- }
-
-
+}
+function butClickspace(){
+	var spac = document.createElement("P");
+	var spacText = document.createTextNode("amount of spaces " + spaces);
+	spac.appendChild(spacText);
+	document.body.appendChild(spacText);
+} 
