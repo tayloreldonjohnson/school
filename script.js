@@ -1,31 +1,77 @@
-document.getElementById("statText").addEventListener("click", butClickLetterCount);
-document.getElementById("statText").addEventListener("click", butClickspace);
-document.getElementById("statUserInput").addEventListener("input",countLetters);
-document.getElementById("statUserInput").addEventListener("input",countSpaces);
-
-var cWords = 0;
-var cLetters = 0;
-var spaces = 0;
-function countSpaces(){
-	cLetters.match(/&#32/g).length;
-	return spaces;
-}
-function countLetters(){
-	cLetters++;
+function nameInfo(){
+  var firstName = document.getElementById("firstName").value;
+  var middleName = document.getElementById("middleName").value;
+  var lastName = document.getElementById("lastName").value;
+  var fullName = firstName+' '+middleName+' '+lastName;
+  document.getElementById("fullName").innerHTML = fullName;
 }
 
 
-	
 
-function butClickLetterCount(){
-		var pLetterCount = document.createElement("P");
-		var pAdd = document.createTextNode("Amount of letters inputed " + cLetters);
-		pLetterCount.appendChild(pAdd);
-		document.body.appendChild(pLetterCount);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* let myNumbers = [3,5,7,6,4,2,9];
+
+function printEvenNumbers(numbers){
+	for(var i=0;i < numbers.length;i++){
+		if (numbers[i] % 2 == 0){
+			console.log(numbers[i]);
+		}
+	}
 }
-function butClickspace(){
-	var spac = document.createElement("P");
-	var spacText = document.createTextNode("amount of spaces " + spaces);
-	spac.appendChild(spacText);
-	document.body.appendChild(spacText);
-} 
+
+printEvenNumbers (myNumbers); */
+/* var btn = document.getElementById("btn");
+
+function printUserInput(){
+	var firstName = document.getElementById('firstName').value;
+	var age = parseInt(document.getElementById('age').value);
+	age += 2;
+	console.log(firstName);
+	console.log(age);
+}
+
+btn.addEventListener('click',printUserInput); */
+/* 
+function addStrings(string1,string2){
+  return string1 + string2;
+}
+
+var fullString = addStrings("I am"," A full string!");
+console.log(fullString);
+ */
+ 
+/* function numberCalculation(){
+  var number1 = 5;
+  var number2 = 78;
+  var multiplyNumbers = number1 * number2;
+  console.log(multiplyNumbers);
+  if (multiplyNumbers < 2000){
+    alert("I wish it was a bigger number")
+  }
+  else if(multiplyNumbers > 2000){
+    alert("That's more like it!")
+  }
+}
+ 
+ numberCalculation();
+  */
