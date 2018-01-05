@@ -6,6 +6,7 @@ img {
 
 #idCard {
    border: 5px solid black;
+   border-radius:25px;
    height: 14em;
    width: 25em;
    margin-left:auto;
@@ -32,17 +33,41 @@ h1{
    
 }
 input{
-	display:flex;
+	display:block;
 	margin:auto;
    margin-top:-1%;
-   margin-bottom:-1%
+   margin-bottom:-1%;
 }
-label{
+/* label{
 	display:flex;
 	margin-left:auto;
    margin-right:auto;
    width:120px;
    
+} */
+.input{
+	display:block;
+	margin-left:auto;
+    margin-right:auto;
+	width:100px;
+}
+.inputAge{
+	display:block;
+	margin-left:auto;
+    margin-right:auto;
+	width:50px;
+}
+.inputPhoneNumber{
+	display:block;
+	margin-left:auto;
+    margin-right:auto;
+	width:110px;
+}
+.inputAddress{
+	display:block;
+	margin-left:auto;
+    margin-right:auto;
+	width:60px;
 }
 
 
@@ -50,6 +75,25 @@ button{
 	display:flex;
 	margin-left:auto;
 	margin-right:auto;
+	margin-bottom:5%;
 	width:90px;
 	
+}
+#postFullName{
+	display:inline-block;
+	margin-left:15%;
+	margin-right:auto;
+	font-size:30px;
+}
+#postAge{
+		padding-left:2%
+
+}
+#postPhoneNumber{
+		padding-left:2%
+
+}
+#postAddress{
+		padding-left:2%
+
 }
