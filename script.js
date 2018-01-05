@@ -19,11 +19,7 @@ function idCard(){
 		}
 	}
 	
-	for(i=0;i<numberArray.length;i++){
-		if(numberArray[1]>100){
-			document.getElementById("postPhoneNumber").innerHTML ="PhoneNumber: " + phoneNumber;
-		}
-	}
+
 	
 	
 	document.getElementById("postFullName").innerHTML=  firstName+' '+lastName;
