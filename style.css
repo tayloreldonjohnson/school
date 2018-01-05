@@ -12,6 +12,7 @@ img {
    margin-left:auto;
    margin-right:auto;
    background-color:pink;
+   font-family: 'Patua One', cursive;
 }
 
 
@@ -38,18 +39,18 @@ input{
    margin-top:-1%;
    margin-bottom:-1%;
 }
-/* label{
-	display:flex;
-	margin-left:auto;
-   margin-right:auto;
-   width:120px;
-   
-} */
-.input{
+
+.inputfirstName{
 	display:block;
 	margin-left:auto;
     margin-right:auto;
-	width:100px;
+	width:80px;
+}
+.inputlastName{
+	display:block;
+	margin-left:auto;
+    margin-right:auto;
+	width:75px;
 }
 .inputAge{
 	display:block;
