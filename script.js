@@ -5,10 +5,14 @@ function idCard(){
 	var age = parseInt(document.getElementById("age").value);
 	var phoneNumber = parseInt(document.getElementById("phoneNumber").value);
 	
+	document.getElementById("postFullName").innerHTML=  firstName+' '+lastName;
+	document.getElementById("postAddress").innerHTML = address;
+	
 	var numberArray = [];
 	numberArray.push(age);
 	numberArray.push(phoneNumber);
 	console.log(numberArray);
+	 
 	
 	for(i=0;i<numberArray.length;i++){
 		if(numberArray[0]<100){
@@ -22,9 +26,7 @@ function idCard(){
 
 	
 	
-	document.getElementById("postFullName").innerHTML=  firstName+' '+lastName;
-	document.getElementById("postAddress").innerHTML = address;
-	 
+	
 	
 	
 }

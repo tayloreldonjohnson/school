@@ -40,13 +40,13 @@ input{
    margin-bottom:-1%;
 }
 
-.inputfirstName{
+.inputFirstName{
 	display:block;
 	margin-left:auto;
     margin-right:auto;
 	width:80px;
 }
-.inputlastName{
+.inputLastName{
 	display:block;
 	margin-left:auto;
     margin-right:auto;
@@ -73,7 +73,7 @@ input{
 
 
 button{
-	display:flex;
+	display:block;
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom:5%;
@@ -81,7 +81,7 @@ button{
 	
 }
 #postFullName{
-	display:inline-block;
+	display:block;
 	margin-left:15%;
 	margin-right:auto;
 	font-size:30px;
