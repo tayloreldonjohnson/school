@@ -1,0 +1,76 @@
+.topTangled{
+	color:red;
+    font-family: 'Butcherman', cursive;
+	font-size:5em;
+	display:flex;
+	justify-content:center;
+}
+body{
+	background-color:black;
+	color:red;
+}
+
+ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	display:flex;
+	justify-content:center;
+}
+li a{
+	display:flex;
+	justify-content:center;
+	color:red;
+	text-align:center;
+	padding-left:8px;
+	padding-right:8px;
+	text-decoration:none;
+	font-size: 25px;
+	font-family: 'Butcherman', cursive;
+	border-bottom-style:double;
+	
+	
+}
+li a:hover{
+	background-color:darkred;
+}
+.contentDiv{
+	display:flex;
+	justify-content:center;
+	margin:3em;
+	border:10px;
+	border-width:100px;
+	border-color:red;
+	
+}
+
+.contentP{
+	display:flex;
+	justify-content:center;
+	margin:3em;
+	
+}
+iframe{
+	margin:5%;
+	
+	
+	
+	
+}
+a{
+	color:red;
+	margin:10px;
+	
+}
+a:hover{
+	background-color:darkred;
+}
+footer{
+	display:flex;
+	justify-content:flex-start;
+	align-items:flex-end;
+	padding-top:5%;
+	
+	
+	
+}
