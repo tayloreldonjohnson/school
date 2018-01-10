@@ -1,7 +1,6 @@
 function totalPrice(sqEdge, pricePerSqFt) {	
-	var totalCost = sqEdge   * sqEdge * pricePerSqFt;
-	document.getElementById("totalCost").innerHTML = totalCost;	
-	return totalCost;
+	var totalPrice = sqEdge   * sqEdge * pricePerSqFt;
+	return totalPrice;
 }
-totalPrice(10, 10);
+console.log(totalPrice(10,100));
 
