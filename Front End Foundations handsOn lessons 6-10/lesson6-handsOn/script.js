@@ -1,0 +1,1 @@
+/* Leverage your knowledge of jQuery to write two functions. One that uses dblclick() to change the CSS color to blue on the h1 tag. The other will change the font size on hover,. */
