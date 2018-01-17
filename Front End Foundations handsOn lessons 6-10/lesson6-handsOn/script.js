@@ -1,1 +1,12 @@
-/* Leverage your knowledge of jQuery to write two functions. One that uses dblclick() to change the CSS color to blue on the h1 tag. The other will change the font size on hover,. */
+$(document).ready(function(){
+    $(".testPage").dblclick(function(){
+        $(this).css("color","blue");
+    });
+});
+
+
+$(document).ready(function(){
+ $(".testPage").hover(function(){
+         $(this).css("font-family","Play, sans-serif")
+    });
+});
