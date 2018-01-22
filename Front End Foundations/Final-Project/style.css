@@ -88,6 +88,6 @@ html, body{
 #repoLink{
     display: flex;
     width: 75px;
-    line-break: normal;
-    
+    color:black;
+    font-family: 'Macondo', cursive;
 }
