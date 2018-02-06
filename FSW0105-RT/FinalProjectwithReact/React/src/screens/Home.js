@@ -3,8 +3,6 @@ import Navbar from '../components/Navbar';
 import Header from "./Header";
 
 class Home extends React.Component {
-    
-
     render(){
         return(
             <Header />

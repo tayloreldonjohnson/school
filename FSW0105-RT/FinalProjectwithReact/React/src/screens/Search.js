@@ -18,7 +18,7 @@ class Search extends React.Component{
     .then(resp => resp.json())
     .then(respJson => {
       console.log(respJson);
-      this.setState({gitrepos: respJson});
+      this.setState({gitrepos: respJson.items});
     })}
   
 
@@ -28,7 +28,7 @@ class Search extends React.Component{
   };
 
 render(){
-  let repos = this.state.gitrepos.map((repo) => <li key={repo.id}>{repo.name}</li>)
+  let repos = this.state.gitrepos.map((repo) => <li key={repo.id} ><a href={repo.html_url} target="_blank">{repo.name}</a></li>)
   return(   
     
     <div className="container">
@@ -47,7 +47,5 @@ render(){
   )
   }
 }
-
-
 
 export default Search;

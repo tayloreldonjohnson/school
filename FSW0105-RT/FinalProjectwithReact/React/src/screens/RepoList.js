@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 import { saveRepos } from "../actions/AppActions";
 
 
-class About extends React.Component {
+class RepoList extends React.Component {
     constructor(props){
         super(props);
         this.state = {
@@ -51,4 +51,4 @@ handleSubmit = event => {
   }
 }
 
-export default About;
+export default RepoList;
